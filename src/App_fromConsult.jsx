@@ -1,4 +1,4 @@
-import "./app.css";
+import "./App.css";
 import Button from "./components/Button";
 import Modal from "./components/Modal";
 

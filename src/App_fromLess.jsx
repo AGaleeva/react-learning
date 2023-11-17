@@ -1,4 +1,4 @@
-import "./app.css";
+import "./App.css";
 import Button from "./components/Button";
 export const animal = "Dog";
 
