@@ -8,10 +8,14 @@ function Counter() {
 
   // насколько понимаю, введение константы count внутри компонента не требует введения дополнительной функции с использованием prevValue
   const counterPlusHandler = () => {
-    setCount(count + 1);     
+    if (count >= 0) {
+    setCount(count + 1);
+  }     
   }  
-  const counterMinusHandler = () => {     
-    setCount(count - 1);     
+  const counterMinusHandler = () => { 
+    if (count > 0){    
+    setCount(count - 1);
+  }     
   }  
   
   return (
