@@ -1,8 +1,10 @@
 .App {
   display: flex;
+  justify-content: space-around;
   height: 100%;
   width: 100%;
   flex-direction: row;
+  gap: 20px;
   /* background-color: lightblue; */
 }
 
