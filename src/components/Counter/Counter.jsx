@@ -19,12 +19,12 @@ function Counter() {
         onClick={() => counterPlusHandler()} 
         name="+" /> */}
       <Button 
-        onClick={counterPlusHandler} 
-        name="+" />  
-      <div>{count}</div>
-      <Button 
         onClick={counterMinusHandler} 
         name="-" />  
+      <div>{count}</div>
+      <Button 
+        onClick={counterPlusHandler} 
+        name="+" />  
       {/* <Button 
         onClick={() => counterMinusHandler()} 
         name="-" /> */}
