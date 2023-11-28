@@ -1,6 +1,6 @@
 .App {
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   height: 100%;
   width: 100%;
   flex-direction: row;
@@ -13,8 +13,9 @@
   margin-bottom: 10px;
 }
 
-.profileCard-container {  
+.profileCard-container {
   width: fit-content;
   height: fit-content;
   margin: 20px;
 }
+

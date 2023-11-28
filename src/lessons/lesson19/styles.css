@@ -1,0 +1,20 @@
+.lesson19-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.itemsControl {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.buttonControl {
+  width: fit-content;
+  height: fit-content;
+}
+
+.imgControl {  
+  height: 15%;
+}
