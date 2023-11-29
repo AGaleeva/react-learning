@@ -2,6 +2,7 @@ import { useState } from 'react';
 import Lesson19 from "./lessons/lesson19";
 import "./app.css";
 import Counter from "./components/Counter";
+import Homework19 from './homeworks/homework19/Homework19';
 
 
 function App() {
@@ -15,9 +16,10 @@ function App() {
   } 
   return (
     <div className="App">
-      {/* <Lesson19 /> */}      
+      {/* <Lesson19 /> */}   
+      {/* <Counter count={count} counterPlusHandler={counterPlusHandler} counterMinusHandler={counterMinusHandler} /> */}
 
-      <Counter count={count} counterPlusHandler={counterPlusHandler} counterMinusHandler={counterMinusHandler} />       
+      <Homework19 />
     </div>
   );  
 }

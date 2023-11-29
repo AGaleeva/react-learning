@@ -18,13 +18,14 @@ function Lesson19() {
 
   const [person, setPerson] = useState({name: 'Kate', age: 28});
 
-  // without initialValue
-  const [name, setName] = useState();
-  console.log(name);
-
+  // example with initialValue
   const addPersonHairColor = (colorHair) => {
     setPerson(prevValue => ({...prevValue, colorHair})); //colorHair: colorHair
   };
+
+  // example without initialValue
+  const [name, setName] = useState();
+  console.log(name);
 
   const newPersons = Object.keys(person).map((personKeys) => {
     return (
