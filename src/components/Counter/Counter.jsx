@@ -1,7 +1,7 @@
 import Button from "../Button";
 import "./styles.css";
 
-function Counter({count, counterPlusHandler, counterMinusHandler}) {
+function Counter({count, counterPlusHandler, counterMinusHandler, text}) {  // введение дополнительного параметра для гибкости, см.ниже
 
   // const [count, setCount] = useState(0);
   
@@ -14,6 +14,7 @@ function Counter({count, counterPlusHandler, counterMinusHandler}) {
   
   return (
     <div className="counterContainer">
+      {text && <p>{text}</p>}             // введение дополнительного параметра для гибкости
       <div className="button-container">
         <Button 
           onClick={counterMinusHandler} 
